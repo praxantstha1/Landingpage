@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  button{
+    background-color: gold;
+    width:100px ;
+    color: black;
+    border-radius: 5px; /* Set border radius for rounded corners */
+    padding: 10px 20px; /* Set padding for the button */
+    border: none; /* Remove default button border */
+  }
+  h2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+  }
+
+  h3{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 8px;
+  }
+  h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+  }
+  h4{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: whitesmoke;
+    width: 800px;
+    overflow-wrap: break-word;
+  }
+  
+  ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    margin-top: 16px;
+  }
+
+  a{
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  .blue-part{
+    display: flex;
+    flex-direction: column;
+    background: black;;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+  }
+  .titlebar{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .top{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 16px;
+    margin: 80px;
+
+  }
+
+  .topcard{
+    display: flex;
+    flex-direction: column;
+    width: 450px; /* Set width of container */
+    overflow-wrap: break-word; /* Wrap long words */
+  }
+  
+
+  .whitepart1{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: black;
+  }
+  .placeholder2{
+    width: 120px; /* Set width */
+    height: 120px; /* Set height */
+    background-color: white; Background color for the placeholder
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  
+  .squares{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  ol{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: smaller;
+    align-items: center;
+    color: white;
+  }
+.greyPart{
+    background-color: #353935;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 500px;
+}
+#name{
+    margin-left: 500px;
+    font-weight: bold;
+}
+.bluePart{
+    background-color: #1B1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.bluebox{
+    background-color: gold;
+    height: 100px;
+    width: 750px;
+    display: flex;
+    justify-content:space-around;
+    overflow-wrap: break-word;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+}
+#Button2{
+  border: 2px solid black; /* Set white border */
+  background-color: transparent; /* Set transparent background */
+  color:black; /* Set text color */ 
+  height: 40px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
